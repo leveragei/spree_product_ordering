@@ -1,9 +1,2 @@
-require 'spree/core'
-
-module Spree
-  module ProductOrdering
-
-  end
-end
-
-require 'spree/product_ordering/engine'
+require 'spree_core'
+require 'spree_product_ordering/engine'
