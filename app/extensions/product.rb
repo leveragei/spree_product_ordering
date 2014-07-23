@@ -7,7 +7,7 @@ module Spree
         included do
           acts_as_list
 
-          scope :by_position, :order => 'spree_products.position'
+          scope :by_position, order: 'spree_products.position'
         end
       end
     end
