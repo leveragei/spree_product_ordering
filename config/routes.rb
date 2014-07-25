@@ -1,5 +1,5 @@
 Spree::Core::Engine.routes.draw do
-  namespace :admin do
+  namespace :backend do
     match 'reorder_products' => 'products#reorder', via: [:get]
     resources :products do
       collection do

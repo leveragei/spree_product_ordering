@@ -1,2 +1,16 @@
+\#*
+*~
+.#*
 .DS_Store
-.idea/
+.idea
+.project
+.sass-cache
+coverage
+Gemfile.lock
+tmp
+nbproject
+pkg
+*.swp
+spec/dummy
+log
+
